@@ -23,10 +23,9 @@ public class knapsackProblem {
 
     }
 
-
     public static void main(String[] args) throws IOException {
         knapsackProblem solution = new knapsackProblem();
-        solution.readFromFile("D:\\Java\\workspace\\KnapsackProblem\\src\\knapsack1.txt");
+        solution.readFromFile("//source//");
         System.out.println(solution.knapsack());
     }
 
